@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.node {
+    fill: #4CAF50;
+    stroke: #333;
+    stroke-width: 2px;
+}
+
+.edge {
+    stroke: #999;
+    stroke-width: 2px;
+}
+
+.weight {
+    font-size: 14px;
+    fill: #333;
+}
+
+.highlight {
+    stroke: red;
+    fill: red;
+    font-weight: bold;
+}
+
+#output {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: bold;
+    fill: white;
+    pointer-events: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
